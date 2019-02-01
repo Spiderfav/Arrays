@@ -1,0 +1,14 @@
+test = [3,1,2,6,4,8,11,5,13,30]
+
+
+for i in range(0,len(test)):
+    if test[i] > test[i+1]:
+        temp = test[i]
+        test[i] = test[i+1]
+        test[i+1] = temp
+        print(test)
+
+    else:
+        print(test)
+     
+        
