@@ -18,19 +18,25 @@ array3d = [[["a","b","c","d"],["e","f","g","h"]],
 #Appending something to an array; in the format of:
 #   name_of_array.append(whatever you want to append)
 
+print(array1d)
 array1d.append("e")
+print(array1d)
 
 #Deleting an item from an array; in the format of:
 #   name_of_array.pop(position of item)
 
+print(array1d)
 array1d.pop(4)
+print(array1d)
 
 #Or if you don't know the position of the item, use:
 #   name_of_array.delete(whatever you want to delete)
 
+print(array1d)
 array1d.append("e")
-array1d.delete("e")
-
+print(array1d)
+array1d.remove("e")
+print(array1d)
 
 #append()	Adds an element at the end of the list
 #clear()	Removes all the elements from the list
